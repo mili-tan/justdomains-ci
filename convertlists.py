@@ -486,7 +486,7 @@ print("Converting...")
 # Load list configuration
 unique_output_files = set()
 lists_details = list()
-with open(args.listsjson) as json_data:
+with open(args.listsjson, encoding='gb18030', errors='ignore') as json_data:
     json_object = json.load(json_data)
 
     if not isinstance(json_object, list):
@@ -561,8 +561,8 @@ with open(args.listsjson) as json_data:
             print("[{!s}]: Processing: {!s} ...".format(filterlist['name'], locallistfile))
         start_time = time.monotonic()
         listdetails = dict()
-        with open(os.path.join(converted_output_lists_locations, outputfilename), 'w') as f:
-            with open(locallistfile, 'r') as inputfile:
+        with open(os.path.join(converted_output_lists_locations, outputfilename), 'w', encoding='gb18030', errors='ignore') as f:
+            with open(locallistfile, 'r', encoding='gb18030', errors='ignore') as inputfile:
             	listdetails = convertlist(inputfile, filterlist['format'], formatconfiguration, f)
         end_time = time.monotonic()
         if args.verbosity >= 1:
@@ -591,7 +591,7 @@ with open(args.listsjson) as json_data:
 
 
 # Output the details.json file
-with open(os.path.join(args.outputpath, 'details.json'), 'w') as outfile:
+with open(os.path.join(args.outputpath, 'details.json'), 'w', encoding='gb18030', errors='ignore') as outfile:
     json.dump(lists_details, outfile, indent=4)
 
 print("Finished converting.")
