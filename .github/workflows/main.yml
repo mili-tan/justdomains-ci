@@ -27,13 +27,22 @@ jobs:
         run: python ./convertlists.py lists.json $HOME/ci/converted/ -vv
       - name: 'Build Repo'
         run: python ./buildrepo.py $HOME/ci/converted/ $HOME/ci/built/ --downloadbaseurl https://justdomains.github.io/blocklists/ -vv
-      - name: 'Deploy'
-        if: success() && (github.event_name == 'schedule' || (github.event_name == 'push' && github.ref == 'refs/heads/master'))
-        env:
-          DEPLOY_SECRET_BASE64_KEY: '${{ secrets.DEPLOY_BASE64_KEY_VAR }}'
-          DEPLOY_BASE64_KEY_VAR: 'DEPLOY_SECRET_BASE64_KEY'
-          DEPLOY_REPO_SLUG: 'justdomains/blocklists'
-          DEPLOY_TARGET_BRANCH: 'master'
-          DEPLOY_GIT_NAME: 'JustDomains CI'
-          DEPLOY_GIT_EMAIL: 'justdomains-ci'
-        run: .ci/deploy.sh $HOME/ci/built/
+      - name: Commit files
+        run: |
+          cd /home/runner/ci/built
+          git init
+          git add .
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      #git config --local --unset-all "http.https://github.com/.extraheader"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: lists           
+          #branch: ${{ github.ref }}
+          #repository: DreamLayer/blocklists
+          directory: /home/runner/ci/built
+          force: true
+
