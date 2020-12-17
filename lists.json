@@ -16,10 +16,243 @@
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
 	},
 	{
+		"name": "EasyList Cookie",
+		"url": "https://easylist-downloads.adblockplus.org/easylist-cookie.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Cookie List blocks cookies banners, GDPR overlay windows and other privacy-related notices.",
+		"license-identifier": "CC BY 3.0"
+	},
+	{
+		"name": "Fanboy's Social Blocking",
+		"url": "https://easylist.to/easylist/fanboy-social.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "Fanboy's Social Blocking List solely removes Social Media content on web pages such as the Facebook like button and other widgets.",
+		"license-identifier": "CC BY 3.0"
+	},
+	{
+		"name": "Fanboy's Social Blocking",
+		"url": "https://easylist.to/easylist/fanboy-annoyance.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "Fanboy's Annoyance List blocks Social Media content, in-page pop-ups and other annoyances; thereby substantially decreasing web page loading times and uncluttering them. EasyList Cookie List and Fanboy's Social Blocking List are already included, there is no need to subscribe to them if you already have Fanboy's Annoyance List.",
+		"license-identifier": "CC BY 3.0"
+	},
+	{
+		"name": "EasyList Germany",
+		"url": "https://easylist.to/easylistgermany/easylistgermany.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Germany is a filter list written by the EasyList authors MonztA, Famlam and Khrin that specifically removes adverts on German language websites.",
+		"license-identifier": "GPL3 / CC BY-SA 3.0",
+		"license": "https://easylist.to/pages/licence.html"
+	},
+	{
+		"name": "EasyList Italy",
+		"url": "https://easylist-downloads.adblockplus.org/easylistitaly.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Italy is a filter list written by the EasyList author Khrin that specifically removes adverts on Italian language websites.",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "EasyList Dutch",
+		"url": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Dutch is an affiliated filter list written by the EasyList author Famlam that specifically removes adverts on Dutch language websites.",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "EasyList Liste FR",
+		"url": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "Liste FR is an affiliated filter list written by Lian, Crits and smed79 that specifically removes adverts on French language websites.",
+		"license-identifier": "CC BY-NC-SA 3.0"
+	},
+	{
+		"name": "EasyList China",
+		"url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList China is an affiliated filter list written by John and Li that specifically removes adverts on Chinese language websites.",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "EasyList Bulgarian list",
+		"url": "https://easylist.to/easylistgermany/easylistitaly.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "Bulgarian list is an affiliated filter list written by Alex that specifically removes adverts on Bulgarian language websites.",
+		"license-identifier": "NOT PROVIDED",
+		"disabled": true
+	},
+	{
+		"name": "EasyList ABPindo",
+		"url": "https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "ABPindo is an affiliated filter list written by hermawan that specifically removes adverts on Indonesian language websites.",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "EasyList Liste AR",
+		"url": "https://easylist-downloads.adblockplus.org/Liste_AR.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "Liste AR is an affiliated filter list written by smed79 and Crits that specifically removes adverts on Arabic language websites.",
+		"license-identifier": "CC BY-NC-SA 3.0"
+	},
+	{
+		"name": "EasyList Czech and Slovak",
+		"url": "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Czech and Slovak is an affiliated filter list written by tomasko126 that specifically removes adverts on Czech and Slovak language websites.",
+		"license-identifier": "CC-BY-SA 4.0",
+		"license": "https://creativecommons.org/licenses/by-sa/4.0/"
+	},
+	{
+		"name": "EasyList Latvian List",
+		"url": "https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "Latvian List is an affiliated filter list written by anonymous74100 that specifically removes adverts on Latvian language websites.",
+		"license-identifier": "CC-BY-SA 4.0",
+		"license": "https://creativecommons.org/licenses/by-sa/4.0/"
+	},
+	{
+		"name": "EasyList Hebrew",
+		"url": "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Hebrew is an affiliated filter list written by BsT that specifically removes adverts on Hebrew language websites.",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "EasyList Lithuania",
+		"url": "http://margevicius.lt/easylistlithuania.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Lithuania is an affiliated filter list written by gymka that specifically removes adverts on Lithuanian language websites.",
+		"license-identifier": "GPL3",
+		"license": "http://www.gnu.org/licenses/gpl-3.0.txt"
+	},
+	{
+		"name": "AdGuard Base Filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/2.txt",
+		"format": "adbp",
+		"outputfile": "adguard-2.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites with English content. Originally based on the EasyList filter. Modified by us according to the complaints from users.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Tracking Protection filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
+		"format": "adbp",
+		"outputfile": "adguard-3.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "The most comprehensive list of various online counters and web analytics tools. If you do not want your actions on the Internet be tracked, use this filter.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Social media filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/4.txt",
+		"format": "adbp",
+		"outputfile": "adguard-4.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "If you do not like numerous «Like» and «Tweet» buttons on all the popular websites on the Internet, subscribe to this filter, and you will not see them anymore.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Annoyances filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/14.txt",
+		"format": "adbp",
+		"outputfile": "adguard-14.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Blocks irritating elements on webpages, including cookie notices, third-party widgets and in-page popups (Doesn’t include social media widgets and buttons, to block them you can still use Social media filter separately). It was inspired by Fanboy Annoyances List, but doesn’t duplicate it, so you can use them both together.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Russian filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/1.txt",
+		"format": "adbp",
+		"outputfile": "adguard-1.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites in Russian. The filter was created 5 years ago. Initially, the work on creation of this filter was based on RU AdList filter and a set of rules developed by us. Subsequently, the filter was developed completely independently, so at this point there are very little intersections with RU AdList left.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard German filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/6.txt",
+		"format": "adbp",
+		"outputfile": "adguard-6.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites with German content. Originally based on the EasyList Germany filter. Modified by us according to the complaints from users.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard French filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/16.txt",
+		"format": "adbp",
+		"outputfile": "adguard-16.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites with French content. Originally based on the Liste FR filter. Modified by us according to the complaints from users.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Japanese filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/7.txt",
+		"format": "adbp",
+		"outputfile": "adguard-7.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites in Japanese. Originally based on the Fanboy’s Japanese-addon Adblock list filter. Modified by us according to the complaints from users.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Dutch filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/8.txt",
+		"format": "adbp",
+		"outputfile": "adguard-8.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites with Dutch content. Originally based on the EasyList Dutch filter. Modified by us according to the complaints from users.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Spanish/Portuguese filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/9.txt",
+		"format": "adbp",
+		"outputfile": "adguard-9.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites in Spanish. Originally based on the Fanboy’s Spanish/Portuguese Adblock list filter. Modified by us according to the complaints from users.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Turkish filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/13.txt",
+		"format": "adbp",
+		"outputfile": "adguard-13.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that enables removing of the ads from websites with Turkish content. Created by us according to the complaints from users.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Mobile ads filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/11.txt",
+		"format": "adbp",
+		"outputfile": "adguard-11.txt",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "Filter that blocks ads on mobile devices. Contains all known mobile ad networks.",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
 		"name": "AdGuard Simplified Domain Names Filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
 		"format": "adbp",
-		"outputfile": "adguarddns.txt",
+		"outputfile": "adguard-15.txt",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "A filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking. This filter is used by AdGuard DNS servers to block ads.",
 		"license-identifier": "GPL3"
