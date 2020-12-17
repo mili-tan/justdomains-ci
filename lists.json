@@ -40,105 +40,12 @@
 		"license-identifier": "CC BY 3.0"
 	},
 	{
-		"name": "EasyList Germany",
-		"url": "https://easylist.to/easylistgermany/easylistgermany.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList Germany is a filter list written by the EasyList authors MonztA, Famlam and Khrin that specifically removes adverts on German language websites.",
-		"license-identifier": "GPL3 / CC BY-SA 3.0",
-		"license": "https://easylist.to/pages/licence.html"
-	},
-	{
-		"name": "EasyList Italy",
-		"url": "https://easylist-downloads.adblockplus.org/easylistitaly.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList Italy is a filter list written by the EasyList author Khrin that specifically removes adverts on Italian language websites.",
-		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "EasyList Dutch",
-		"url": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList Dutch is an affiliated filter list written by the EasyList author Famlam that specifically removes adverts on Dutch language websites.",
-		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "EasyList Liste FR",
-		"url": "https://easylist-downloads.adblockplus.org/liste_fr.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "Liste FR is an affiliated filter list written by Lian, Crits and smed79 that specifically removes adverts on French language websites.",
-		"license-identifier": "CC BY-NC-SA 3.0"
-	},
-	{
 		"name": "EasyList China",
 		"url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
 		"format": "adbp",
 		"moreinformation": "https://easylist.to/",
 		"description": "EasyList China is an affiliated filter list written by John and Li that specifically removes adverts on Chinese language websites.",
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "EasyList Bulgarian list",
-		"url": "https://easylist.to/easylistgermany/easylistitaly.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "Bulgarian list is an affiliated filter list written by Alex that specifically removes adverts on Bulgarian language websites.",
-		"license-identifier": "NOT PROVIDED",
-		"disabled": true
-	},
-	{
-		"name": "EasyList ABPindo",
-		"url": "https://raw.githubusercontent.com/heradhis/indonesianadblockrules/master/subscriptions/abpindo.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "ABPindo is an affiliated filter list written by hermawan that specifically removes adverts on Indonesian language websites.",
-		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "EasyList Liste AR",
-		"url": "https://easylist-downloads.adblockplus.org/Liste_AR.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "Liste AR is an affiliated filter list written by smed79 and Crits that specifically removes adverts on Arabic language websites.",
-		"license-identifier": "CC BY-NC-SA 3.0"
-	},
-	{
-		"name": "EasyList Czech and Slovak",
-		"url": "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList Czech and Slovak is an affiliated filter list written by tomasko126 that specifically removes adverts on Czech and Slovak language websites.",
-		"license-identifier": "CC-BY-SA 4.0",
-		"license": "https://creativecommons.org/licenses/by-sa/4.0/"
-	},
-	{
-		"name": "EasyList Latvian List",
-		"url": "https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "Latvian List is an affiliated filter list written by anonymous74100 that specifically removes adverts on Latvian language websites.",
-		"license-identifier": "CC-BY-SA 4.0",
-		"license": "https://creativecommons.org/licenses/by-sa/4.0/"
-	},
-	{
-		"name": "EasyList Hebrew",
-		"url": "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList Hebrew is an affiliated filter list written by BsT that specifically removes adverts on Hebrew language websites.",
-		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "EasyList Lithuania",
-		"url": "http://margevicius.lt/easylistlithuania.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList Lithuania is an affiliated filter list written by gymka that specifically removes adverts on Lithuanian language websites.",
-		"license-identifier": "GPL3",
-		"license": "http://www.gnu.org/licenses/gpl-3.0.txt"
 	},
 	{
 		"name": "AdGuard Base Filter",
