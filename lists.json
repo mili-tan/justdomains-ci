@@ -3,6 +3,7 @@
 		"name": "EasyList",
 		"url": "https://easylist.to/easylist/easylist.txt",
 		"format": "adbp",
+		"outputfile": "easylist.list",
 		"moreinformation": "https://easylist.to/",
 		"description": "EasyList is the primary filter list that removes most adverts from international webpages, including unwanted frames, images and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.",
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
@@ -12,6 +13,7 @@
 		"url": "https://easylist.to/easylist/easyprivacy.txt",
 		"format": "adbp",
 		"moreinformation": "https://easylist.to/",
+		"outputfile": "easyprivacy.list",
 		"description": "EasyPrivacy is an optional supplementary filter list that completely removes all forms of tracking from the internet, including web bugs, tracking scripts and information collectors, thereby protecting your personal data.",
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
 	},
@@ -19,6 +21,7 @@
 		"name": "EasyList Cookie",
 		"url": "https://easylist-downloads.adblockplus.org/easylist-cookie.txt",
 		"format": "adbp",
+		"outputfile": "easylist-cookie.list",
 		"moreinformation": "https://easylist.to/",
 		"description": "EasyList Cookie List blocks cookies banners, GDPR overlay windows and other privacy-related notices.",
 		"license-identifier": "CC BY 3.0"
@@ -26,6 +29,7 @@
 	{
 		"name": "Fanboy's Social Blocking",
 		"url": "https://easylist.to/easylist/fanboy-social.txt",
+		"outputfile": "fanboy-social.list",
 		"format": "adbp",
 		"moreinformation": "https://easylist.to/",
 		"description": "Fanboy's Social Blocking List solely removes Social Media content on web pages such as the Facebook like button and other widgets.",
@@ -35,6 +39,7 @@
 		"name": "Fanboy's Social Blocking",
 		"url": "https://easylist.to/easylist/fanboy-annoyance.txt",
 		"format": "adbp",
+		"outputfile": "fanboy-annoyance.list",
 		"moreinformation": "https://easylist.to/",
 		"description": "Fanboy's Annoyance List blocks Social Media content, in-page pop-ups and other annoyances; thereby substantially decreasing web page loading times and uncluttering them. EasyList Cookie List and Fanboy's Social Blocking List are already included, there is no need to subscribe to them if you already have Fanboy's Annoyance List.",
 		"license-identifier": "CC BY 3.0"
@@ -43,15 +48,25 @@
 		"name": "EasyList China",
 		"url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
 		"format": "adbp",
+		"outputfile": "easylistchina.list",
 		"moreinformation": "https://easylist.to/",
 		"description": "EasyList China is an affiliated filter list written by John and Li that specifically removes adverts on Chinese language websites.",
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
 	},
 	{
+		"name": "AdGuard Simplified Domain Names Filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
+		"format": "adbp",
+		"outputfile": "adguarddns.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "A filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking. This filter is used by AdGuard DNS servers to block ads.",
+		"license-identifier": "GPL3"
+	},
+	{
 		"name": "AdGuard Base Filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/2.txt",
 		"format": "adbp",
-		"outputfile": "adguard-2.txt",
+		"outputfile": "adguard-base.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "Filter that enables removing of the ads from websites with English content. Originally based on the EasyList filter. Modified by us according to the complaints from users.",
 		"license-identifier": "CC BY-SA 3.0"
@@ -60,7 +75,7 @@
 		"name": "AdGuard Tracking Protection filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
 		"format": "adbp",
-		"outputfile": "adguard-3.txt",
+		"outputfile": "adguard-tracking.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "The most comprehensive list of various online counters and web analytics tools. If you do not want your actions on the Internet be tracked, use this filter.",
 		"license-identifier": "CC BY-SA 3.0"
@@ -69,7 +84,7 @@
 		"name": "AdGuard Social media filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/4.txt",
 		"format": "adbp",
-		"outputfile": "adguard-4.txt",
+		"outputfile": "adguard-social.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "If you do not like numerous «Like» and «Tweet» buttons on all the popular websites on the Internet, subscribe to this filter, and you will not see them anymore.",
 		"license-identifier": "CC BY-SA 3.0"
@@ -78,7 +93,7 @@
 		"name": "AdGuard Annoyances filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/14.txt",
 		"format": "adbp",
-		"outputfile": "adguard-14.txt",
+		"outputfile": "adguard-annoyances.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "Blocks irritating elements on webpages, including cookie notices, third-party widgets and in-page popups (Doesn’t include social media widgets and buttons, to block them you can still use Social media filter separately). It was inspired by Fanboy Annoyances List, but doesn’t duplicate it, so you can use them both together.",
 		"license-identifier": "CC BY-SA 3.0"
@@ -87,7 +102,7 @@
 		"name": "AdGuard Chinese filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/224.txt",
 		"format": "adbp",
-		"outputfile": "adguard-13.txt",
+		"outputfile": "adguard-chinese.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "Filter that enables removing of the ads from websites with Chinese content. Created by us according to the complaints from users.",
 		"license-identifier": "CC BY-SA 3.0"
@@ -96,25 +111,16 @@
 		"name": "AdGuard Mobile ads filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/11.txt",
 		"format": "adbp",
-		"outputfile": "adguard-11.txt",
+		"outputfile": "adguard-mobile.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "Filter that blocks ads on mobile devices. Contains all known mobile ad networks.",
 		"license-identifier": "CC BY-SA 3.0"
 	},
 	{
-		"name": "AdGuard Simplified Domain Names Filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
-		"format": "adbp",
-		"outputfile": "adguard-15.txt",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "A filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking. This filter is used by AdGuard DNS servers to block ads.",
-		"license-identifier": "GPL3"
-	},
-	{
 		"name": "NoCoin Filter List",
 		"url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
 		"format": "hosts",
-		"outputfile": "nocoin.txt",
+		"outputfile": "nocoin.list",
 		"moreinformation": "https://github.com/hoshsadiq/adblock-nocoin-list/",
 		"description": "Blocking Web Browser Bitcoin Mining",
 		"license-identifier": "MIT",
