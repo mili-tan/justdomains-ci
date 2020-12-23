@@ -514,7 +514,8 @@ with open(args.listsjson, encoding='gb18030', errors='ignore') as json_data:
             outputfilename = os.path.basename(parsedurl.path)
             pass
         basefilename = outputfilename # type: str
-        outputfilename = appendtofilename(basefilename, "-justdomains")
+        #outputfilename = appendtofilename(basefilename, "-justdomains")
+	outputfilename = basefilename
 
         if basefilename in unique_output_files:
             # More than one list is configured to use the same output filename
