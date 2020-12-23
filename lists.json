@@ -36,6 +36,24 @@
 		"license-identifier": "CC BY 3.0"
 	},
 	{
+		"name": "CJX's EasyList Lite",
+		"url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
+		"outputfile": "cjxlist.list",
+		"format": "adbp",
+		"moreinformation": "https://github.com/cjx82630/cjxlist",
+		"description": "This is a lite version of Easylist.Filters triggered only on Simplified Chinese websites.",
+		"license-identifier": "LGPL-3.0 License"
+	},
+	{
+		"name": "CJX's Annoyance List",
+		"url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+		"outputfile": "cjx-annoyance.list",
+		"format": "adbp",
+		"moreinformation": "https://github.com/cjx82630/cjxlist",
+		"description": "Removed Annoyances, Self-promotion & Privacy Protection on Chinese Websites.",
+		"license-identifier": "LGPL-3.0 License"
+	},
+	{
 		"name": "Fanboy's Social Blocking",
 		"url": "https://easylist.to/easylist/fanboy-annoyance.txt",
 		"format": "adbp",
