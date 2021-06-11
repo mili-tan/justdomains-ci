@@ -29,8 +29,8 @@ jobs:
         run: python ./buildrepo.py $HOME/ci/converted/ $HOME/ci/built/ --downloadbaseurl https://mili-tan.github.io/justdomains/ -vv
       - name: Commit files
         run: |
+          cp lists.json /home/runner/ci/built
           cd /home/runner/ci/built
-          cp $HOME/lists.json /home/runner/ci/built
           git init
           git add .
           git config --local user.email "action@github.com"
