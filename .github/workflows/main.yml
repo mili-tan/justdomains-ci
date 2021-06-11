@@ -30,7 +30,7 @@ jobs:
       - name: Commit files
         run: |
           cd /home/runner/ci/built
-          cp lists.json /home/runner/ci/built
+          cp $HOME/lists.json /home/runner/ci/built
           git init
           git add .
           git config --local user.email "action@github.com"
