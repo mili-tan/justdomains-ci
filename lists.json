@@ -1,0 +1,157 @@
+[
+	{
+		"name": "EasyList",
+		"url": "https://easylist.to/easylist/easylist.txt",
+		"format": "adbp",
+		"outputfile": "easylist.list",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList 是首选的过滤器列表，可从国际网页中删除大部分广告，包括不需要的框架、图像和对象。 它是许多广告拦截器使用的最流行的列表，并构成了十多种组合和补充过滤器列表的基础。 ",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "EasyPrivacy",
+		"url": "https://easylist.to/easylist/easyprivacy.txt",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"outputfile": "easyprivacy.list",
+		"description": "EasyPrivacy 是一个可选的补充过滤器列表，可从 Internet 上完全删除所有形式的跟踪，包括网络错误、跟踪脚本和信息收集器，从而保护您的个人数据。 ",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "EasyList Cookie",
+		"url": "https://easylist-downloads.adblockplus.org/easylist-cookie.txt",
+		"format": "adbp",
+		"outputfile": "easylist-cookie.list",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList Cookie 列表可阻止 Cookie 横幅、GDPR 覆盖窗口和其他与隐私相关的通知。 ",
+		"license-identifier": "CC BY 3.0"
+	},
+	{
+		"name": "Fanboy's Social Blocking",
+		"url": "https://easylist.to/easylist/fanboy-social.txt",
+		"outputfile": "fanboy-social.list",
+		"format": "adbp",
+		"moreinformation": "https://easylist.to/",
+		"description": "Fanboy 的社交阻止列表仅删除网页上的社交媒体内容，例如 Facebook 点赞按钮和其他小部件。 ",
+		"license-identifier": "CC BY 3.0"
+	},
+	{
+		"name": "CJX's EasyList Lite",
+		"url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
+		"outputfile": "cjxlist.list",
+		"format": "adbp",
+		"moreinformation": "https://github.com/cjx82630/cjxlist",
+		"description": "这是 Easylist 的精简版。 过滤器仅在简体中文网站上触发。 ",
+		"license-identifier": "LGPL-3.0 License"
+	},
+	{
+		"name": "CJX's Annoyance List",
+		"url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+		"outputfile": "cjx-annoyance.list",
+		"format": "adbp",
+		"moreinformation": "https://github.com/cjx82630/cjxlist",
+		"description": "消除了中文网站上的骚扰内容、自我宣传和隐私保护。",
+		"license-identifier": "LGPL-3.0 License"
+	},
+	{
+		"name": "Fanboy's Annoyance List",
+		"url": "https://easylist.to/easylist/fanboy-annoyance.txt",
+		"format": "adbp",
+		"outputfile": "fanboy-annoyance.list",
+		"moreinformation": "https://easylist.to/",
+		"description": "Fanboy 的烦恼列表阻止社交媒体内容、页面内弹出窗口和其他骚扰； 从而大大减少网页加载时间并使它们变得整洁。 EasyList Cookie List 和 Fanboy's Social Blocking List 已经将其包含在内，如果您已有 Fanboy's Annoyance List，则无需订阅。 ",
+		"license-identifier": "CC BY 3.0"
+	},
+	{
+		"name": "EasyList China",
+		"url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+		"format": "adbp",
+		"outputfile": "easylistchina.list",
+		"moreinformation": "https://easylist.to/",
+		"description": "EasyList China 是由 John 和 Li 编写的附属过滤器列表，专门用于去除中文网站上的广告。 ",
+		"license-identifier": "GPL3 / CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Simplified Domain Names Filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
+		"format": "adbp",
+		"outputfile": "adguarddns.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "由其他几个过滤器（英语过滤器、社交媒体过滤器、间谍软件过滤器、移动广告过滤器、EasyList 和 EasyPrivacy）组成的过滤器，经过专门简化以更好地与 DNS 级广告拦截兼容。 AdGuard DNS 服务器使用此过滤器来阻止广告。 ",
+		"license-identifier": "GPL3"
+	},
+	{
+		"name": "AdGuard Base Filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/2.txt",
+		"format": "adbp",
+		"outputfile": "adguard-base.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "可以从包含英文内容的网站中删除广告。 最初基于 EasyList 过滤器， 根据用户的反馈进行了修改。 ",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Tracking Protection filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
+		"format": "adbp",
+		"outputfile": "adguard-tracking.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "最全面的各种在线计数器和网络分析工具的清单。如果你不希望你在互联网上的行为被追踪，请使用这个过滤器。",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Social media filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/4.txt",
+		"format": "adbp",
+		"outputfile": "adguard-social.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "如果您不喜欢 Internet 上所有流行网站上的众多“赞”和“推文”按钮，请订阅此过滤器，您将不会再看到它们。 ",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Annoyances filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/14.txt",
+		"format": "adbp",
+		"outputfile": "adguard-annoyances.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "阻止网页上的骚扰性元素，包括 Cookie 通知、第三方小部件和页面内弹出窗口（不包括社交媒体小部件和按钮，要阻止它们，您可以单独使用社交媒体过滤器）。 它的灵感来自 Fanboy Annoyances List，但不会复制它，因此您可以同时使用它们。 ",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Chinese filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/224.txt",
+		"format": "adbp",
+		"outputfile": "adguard-chinese.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "可以从具有中文内容的网站中删除广告。 根据用户的反馈创建。 ",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "AdGuard Mobile ads filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/11.txt",
+		"format": "adbp",
+		"outputfile": "adguard-mobile.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "阻止移动设备上的广告。 包含所有已知的移动广告网络。 ",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "NoCoin Filter List",
+		"url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+		"format": "hosts",
+		"outputfile": "nocoin.list",
+		"moreinformation": "https://github.com/hoshsadiq/adblock-nocoin-list/",
+		"description": "阻止网络浏览器加密货币挖矿脚本。",
+		"license-identifier": "MIT",
+		"license": "https://github.com/hoshsadiq/adblock-nocoin-list/blob/master/LICENSE"
+	},
+	{
+		"name": "AdAway default blocklist",
+		"url": "https://adaway.org/hosts.txt",
+		"format": "hosts",
+		"outputfile": "adaway.list",
+		"moreinformation": "https://adaway.org/",
+		"description": "AdAway 的特殊主机文件，包含移动广告提供商。",
+		"license-identifier": "CC Attribution 3.0",
+		"license": "https://github.com/AdAway/AdAway/blob/master/LICENSE"
+	}
+]
