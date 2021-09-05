@@ -151,7 +151,7 @@
 		"outputfile": "adaway.list",
 		"moreinformation": "https://adaway.org/",
 		"description": "AdAway 的特殊主机文件，包含移动广告提供商。",
-		"license-identifier": "CC Attribution 3.0",
+		"license-identifier": "CC BY 3.0",
 		"license": "https://github.com/AdAway/AdAway/blob/master/LICENSE"
 	}
 ]
