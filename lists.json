@@ -1,5 +1,33 @@
 [
 	{
+		"name": "AdAway Blocklist",
+		"url": "https://adaway.org/hosts.txt",
+		"format": "hosts",
+		"outputfile": "adaway.list",
+		"moreinformation": "https://adaway.org/",
+		"description": "AdAway 的特殊主机文件，包含移动广告提供商。",
+		"license-identifier": "CC BY 3.0",
+		"license": "https://github.com/AdAway/AdAway/blob/master/LICENSE"
+	},
+	{
+		"name": "StevenBlack's Hosts",
+		"url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+		"format": "hosts",
+		"outputfile": "stevenblack.list",
+		"moreinformation": "https://github.com/StevenBlack/hosts",
+		"description": "由 Steven Black 创建的经过精心筛选的聚合 Hosts。",
+		"license-identifier": "MIT"
+	},
+	{
+		"name": "Yoyos Hosts",
+		"url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+		"format": "hosts",
+		"outputfile": "yoyo.list",
+		"moreinformation": "https://pgl.yoyo.org/adservers/",
+		"description": "阻止广告、跟踪器和其他讨厌的东西的阻止列表。",
+		"license-identifier": "MCRAE GENERAL PUBLIC LICENSE"
+	},
+	{
 		"name": "EasyList",
 		"url": "https://easylist.to/easylist/easylist.txt",
 		"format": "adbp",
@@ -72,22 +100,13 @@
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
 	},
 	{
-		"name": "AdGuard Simplified Domain Names Filter",
+		"name": "AdGuard DNS Filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
 		"format": "adbp",
 		"outputfile": "adguarddns.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "由其他几个过滤器（英语过滤器、社交媒体过滤器、间谍软件过滤器、移动广告过滤器、EasyList 和 EasyPrivacy）组成的过滤器，经过专门简化以更好地与 DNS 级广告拦截兼容。 AdGuard DNS 服务器使用此过滤器来阻止广告。 ",
 		"license-identifier": "GPL3"
-	},
-	{
-		"name": "AdGuard Base Filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/2.txt",
-		"format": "adbp",
-		"outputfile": "adguard-base.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "可以从包含英文内容的网站中删除广告。 最初基于 EasyList 过滤器， 根据用户的反馈进行了修改。 ",
-		"license-identifier": "CC BY-SA 3.0"
 	},
 	{
 		"name": "AdGuard Tracking Protection filter",
@@ -99,7 +118,7 @@
 		"license-identifier": "CC BY-SA 3.0"
 	},
 	{
-		"name": "AdGuard Social media filter",
+		"name": "AdGuard Social Media filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/4.txt",
 		"format": "adbp",
 		"outputfile": "adguard-social.list",
@@ -126,7 +145,7 @@
 		"license-identifier": "CC BY-SA 3.0"
 	},
 	{
-		"name": "AdGuard Mobile ads filter",
+		"name": "AdGuard Mobile filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/11.txt",
 		"format": "adbp",
 		"outputfile": "adguard-mobile.list",
@@ -143,15 +162,5 @@
 		"description": "阻止网络浏览器加密货币挖矿脚本。",
 		"license-identifier": "MIT",
 		"license": "https://github.com/hoshsadiq/adblock-nocoin-list/blob/master/LICENSE"
-	},
-	{
-		"name": "AdAway default blocklist",
-		"url": "https://adaway.org/hosts.txt",
-		"format": "hosts",
-		"outputfile": "adaway.list",
-		"moreinformation": "https://adaway.org/",
-		"description": "AdAway 的特殊主机文件，包含移动广告提供商。",
-		"license-identifier": "CC BY 3.0",
-		"license": "https://github.com/AdAway/AdAway/blob/master/LICENSE"
 	}
 ]
