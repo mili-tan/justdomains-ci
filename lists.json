@@ -162,5 +162,14 @@
 		"description": "阻止网络浏览器加密货币挖矿脚本。",
 		"license-identifier": "MIT",
 		"license": "https://github.com/hoshsadiq/adblock-nocoin-list/blob/master/LICENSE"
+	},
+	{
+		"name": "Disconnect(ADS)",
+		"url": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
+		"format": "adbp",
+		"outputfile": "disconnect.list",
+		"moreinformation": "https://disconnect.me",
+		"description": "Disconnect 创建的的广告过滤器列表。 ",
+		"license-identifier": "GPL3"
 	}
 ]
