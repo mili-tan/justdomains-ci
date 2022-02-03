@@ -37,6 +37,24 @@
 		"license-identifier": "MIT"
 	},
 	{
+		"name": "AdRules（DNS）",
+		"url": "https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt",
+		"format": "adbp",
+		"outputfile": "adrules.list",
+		"moreinformation": "https://github.com/Cats-Team/AdRules",
+		"description": "来自上游网站的自动合并新规则。",
+		"license-identifier": " Unlicense"
+	},
+	{
+		"name": "AdGuard DNS Filter",
+		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
+		"format": "adbp",
+		"outputfile": "adguarddns.list",
+		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+		"description": "由其他几个过滤器（英语过滤器、社交媒体过滤器、间谍软件过滤器、移动广告过滤器、EasyList 和 EasyPrivacy）组成的过滤器，经过专门简化以更好地与 DNS 级广告拦截兼容。 AdGuard DNS 服务器使用此过滤器来阻止广告。 ",
+		"license-identifier": "GPL3"
+	},
+	{
 		"name": "EasyList",
 		"url": "https://easylist.to/easylist/easylist.txt",
 		"format": "adbp",
@@ -53,24 +71,6 @@
 		"outputfile": "easyprivacy.list",
 		"description": "EasyPrivacy 是一个可选的补充过滤器列表，可从 Internet 上完全删除所有形式的跟踪，包括网络错误、跟踪脚本和信息收集器，从而保护您的个人数据。 ",
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "EasyList Cookie",
-		"url": "https://easylist-downloads.adblockplus.org/easylist-cookie.txt",
-		"format": "adbp",
-		"outputfile": "easylist-cookie.list",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList Cookie 列表可阻止 Cookie 横幅、GDPR 覆盖窗口和其他与隐私相关的通知。 ",
-		"license-identifier": "CC BY 3.0"
-	},
-	{
-		"name": "Fanboy's Social Blocking",
-		"url": "https://easylist.to/easylist/fanboy-social.txt",
-		"outputfile": "fanboy-social.list",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"description": "Fanboy 的社交阻止列表仅删除网页上的社交媒体内容，例如 Facebook 点赞按钮和其他小部件。 ",
-		"license-identifier": "CC BY 3.0"
 	},
 	{
 		"name": "CJX's EasyList Lite",
@@ -109,57 +109,12 @@
 		"license-identifier": "GPL3 / CC BY-SA 3.0"
 	},
 	{
-		"name": "AdGuard DNS Filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
-		"format": "adbp",
-		"outputfile": "adguarddns.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "由其他几个过滤器（英语过滤器、社交媒体过滤器、间谍软件过滤器、移动广告过滤器、EasyList 和 EasyPrivacy）组成的过滤器，经过专门简化以更好地与 DNS 级广告拦截兼容。 AdGuard DNS 服务器使用此过滤器来阻止广告。 ",
-		"license-identifier": "GPL3"
-	},
-	{
 		"name": "AdGuard Tracking Protection filter",
 		"url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
 		"format": "adbp",
 		"outputfile": "adguard-tracking.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "最全面的各种在线计数器和网络分析工具的清单。如果你不希望你在互联网上的行为被追踪，请使用这个过滤器。",
-		"license-identifier": "CC BY-SA 3.0"
-	},
-	{
-		"name": "AdGuard Social Media filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/4.txt",
-		"format": "adbp",
-		"outputfile": "adguard-social.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "如果您不喜欢 Internet 上所有流行网站上的众多“赞”和“推文”按钮，请订阅此过滤器，您将不会再看到它们。 ",
-		"license-identifier": "CC BY-SA 3.0"
-	},
-	{
-		"name": "AdGuard Annoyances filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/14.txt",
-		"format": "adbp",
-		"outputfile": "adguard-annoyances.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "阻止网页上的骚扰性元素，包括 Cookie 通知、第三方小部件和页面内弹出窗口（不包括社交媒体小部件和按钮，要阻止它们，您可以单独使用社交媒体过滤器）。 它的灵感来自 Fanboy Annoyances List，但不会复制它，因此您可以同时使用它们。 ",
-		"license-identifier": "CC BY-SA 3.0"
-	},
-	{
-		"name": "AdGuard Chinese filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/224.txt",
-		"format": "adbp",
-		"outputfile": "adguard-chinese.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "可以从具有中文内容的网站中删除广告。 根据用户的反馈创建。 ",
-		"license-identifier": "CC BY-SA 3.0"
-	},
-	{
-		"name": "AdGuard Mobile filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/11.txt",
-		"format": "adbp",
-		"outputfile": "adguard-mobile.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "阻止移动设备上的广告。 包含所有已知的移动广告网络。 ",
 		"license-identifier": "CC BY-SA 3.0"
 	},
 	{
