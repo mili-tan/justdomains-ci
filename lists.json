@@ -37,7 +37,7 @@
 		"license-identifier": "MIT"
 	},
 	{
-		"name": "AdRules（DNS）",
+		"name": "AdRules DNS",
 		"url": "https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt",
 		"format": "adbp",
 		"outputfile": "adrules.list",
