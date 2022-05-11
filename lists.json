@@ -43,7 +43,7 @@
 		"outputfile": "adrules.list",
 		"moreinformation": "https://github.com/Cats-Team/AdRules",
 		"description": "来自上游网站的自动合并新规则。",
-		"license-identifier": " Unlicense"
+		"license-identifier": "Unlicense"
 	},
 	{
 		"name": "AdGuard DNS Filter",
@@ -79,7 +79,7 @@
 		"format": "adbp",
 		"moreinformation": "https://github.com/cjx82630/cjxlist",
 		"description": "这是 Easylist 的精简版。 过滤器仅在简体中文网站上触发。 ",
-		"license-identifier": "LGPL-3.0 License"
+		"license-identifier": "LGPL-3.0"
 	},
 	{
 		"name": "CJX's Annoyance List",
@@ -88,7 +88,7 @@
 		"format": "adbp",
 		"moreinformation": "https://github.com/cjx82630/cjxlist",
 		"description": "消除了中文网站上的骚扰内容、自我宣传和隐私保护。",
-		"license-identifier": "LGPL-3.0 License"
+		"license-identifier": "LGPL-3.0"
 	},
 	{
 		"name": "Fanboy's Annoyance List",
@@ -115,6 +115,33 @@
 		"outputfile": "adguard-tracking.list",
 		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
 		"description": "最全面的各种在线计数器和网络分析工具的清单。如果你不希望你在互联网上的行为被追踪，请使用这个过滤器。",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "1Hosts Lite",
+		"url": "https://badmojr.github.io/1Hosts/Lite/hosts.txt",
+		"format": "hosts",
+		"outputfile": "onehosts.list",
+		"moreinformation": "https://badmojr.github.io/1Hosts/",
+		"description": "保护您的设备免受讨厌的广告、跟踪器和恶意软件的侵害。",
+		"license-identifier": "MPL-2.0"
+	},	
+	{
+		"name": "OISD",
+		"url": "https://hosts.oisd.nl/basic",
+		"format": "hosts",
+		"outputfile": "oisd.list",
+		"moreinformation": "https://oisd.nl/",
+		"description": "OISD - Domain Blocklist - Since november 2018",
+		"license-identifier": "CC BY-SA 3.0"
+	},
+	{
+		"name": "NoTracking",
+		"url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt",
+		"format": "adbp",
+		"outputfile": "notracking.list",
+		"moreinformation": "https://github.com/notracking/hosts-blocklists",
+		"description": "自动更新、审核和优化列表，用于阻止广告、跟踪器、恶意软件和其他垃圾。",
 		"license-identifier": "CC BY-SA 3.0"
 	},
 	{
