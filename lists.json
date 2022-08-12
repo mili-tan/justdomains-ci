@@ -28,15 +28,6 @@
 		"license-identifier": "MCRAE GENERAL PUBLIC LICENSE"
 	},
 	{
-		"name": "Anti-AD",
-		"url": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt",
-		"format": "adbp",
-		"outputfile": "anti-ad.list",
-		"moreinformation": "https://github.com/privacy-protection-tools/anti-AD",
-		"description": "致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。 ",
-		"license-identifier": "MIT"
-	},
-	{
 		"name": "AdRules DNS",
 		"url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
 		"format": "adbp",
