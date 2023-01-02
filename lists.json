@@ -118,15 +118,6 @@
 		"license-identifier": "MPL-2.0"
 	},	
 	{
-		"name": "OISD",
-		"url": "https://hosts.oisd.nl/basic",
-		"format": "hosts",
-		"outputfile": "oisd.list",
-		"moreinformation": "https://oisd.nl/",
-		"description": "OISD - Domain Blocklist - Since november 2018",
-		"license-identifier": "CC BY-SA 3.0"
-	},
-	{
 		"name": "NoTracking",
 		"url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt",
 		"format": "adbp",
