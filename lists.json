@@ -1,139 +1,148 @@
 [
-	{
-		"name": "AdAway Blocklist",
-		"url": "https://adaway.org/hosts.txt",
-		"format": "hosts",
-		"outputfile": "adaway.list",
-		"moreinformation": "https://adaway.org/",
-		"description": "AdAway 的特殊主机文件，包含移动广告提供商。",
-		"license-identifier": "CC BY 3.0",
-		"license": "https://github.com/AdAway/AdAway/blob/master/LICENSE"
-	},
-	{
-		"name": "StevenBlack's Hosts",
-		"url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-		"format": "hosts",
-		"outputfile": "stevenblack.list",
-		"moreinformation": "https://github.com/StevenBlack/hosts",
-		"description": "由 Steven Black 创建的经过精心筛选的聚合 Hosts。",
-		"license-identifier": "MIT"
-	},
-	{
-		"name": "Yoyos Hosts",
-		"url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
-		"format": "hosts",
-		"outputfile": "yoyo.list",
-		"moreinformation": "https://pgl.yoyo.org/adservers/",
-		"description": "阻止广告、跟踪器和其他讨厌的东西的阻止列表。",
-		"license-identifier": "MCRAE GENERAL PUBLIC LICENSE"
-	},
-	{
-		"name": "AdRules DNS List",
-		"url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
-		"format": "adbp",
-		"outputfile": "adrules.list",
-		"moreinformation": "https://github.com/Cats-Team/AdRules",
-		"description": "用于阻止中文地区广告的列表。",
-		"license-identifier": "WTFPL"
-	},
-	{
-		"name": "AdGuard DNS Filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
-		"format": "adbp",
-		"outputfile": "adguarddns.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "由其他几个过滤器（英语过滤器、社交媒体过滤器、间谍软件过滤器、移动广告过滤器、EasyList 和 EasyPrivacy）组成的过滤器，经过专门简化以更好地与 DNS 级广告拦截兼容。 AdGuard DNS 服务器使用此过滤器来阻止广告。 ",
-		"license-identifier": "GPL3"
-	},
-	{
-		"name": "EasyList",
-		"url": "https://easylist.to/easylist/easylist.txt",
-		"format": "adbp",
-		"outputfile": "easylist.list",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList 是首选的过滤器列表，可从国际网页中删除大部分广告，包括不需要的框架、图像和对象。 它是许多广告拦截器使用的最流行的列表，并构成了十多种组合和补充过滤器列表的基础。 ",
-		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "EasyPrivacy",
-		"url": "https://easylist.to/easylist/easyprivacy.txt",
-		"format": "adbp",
-		"moreinformation": "https://easylist.to/",
-		"outputfile": "easyprivacy.list",
-		"description": "EasyPrivacy 是一个可选的补充过滤器列表，可从 Internet 上完全删除所有形式的跟踪，包括网络错误、跟踪脚本和信息收集器，从而保护您的个人数据。 ",
-		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "CJX's EasyList Lite",
-		"url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
-		"outputfile": "cjxlist.list",
-		"format": "adbp",
-		"moreinformation": "https://github.com/cjx82630/cjxlist",
-		"description": "这是 Easylist 的精简版。 过滤器仅在简体中文网站上触发。 ",
-		"license-identifier": "LGPL-3.0"
-	},
-	{
-		"name": "CJX's Annoyance List",
-		"url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
-		"outputfile": "cjx-annoyance.list",
-		"format": "adbp",
-		"moreinformation": "https://github.com/cjx82630/cjxlist",
-		"description": "消除了中文网站上的骚扰内容、自我宣传和隐私保护。",
-		"license-identifier": "LGPL-3.0"
-	},
-	{
-		"name": "Fanboy's Annoyance List",
-		"url": "https://easylist.to/easylist/fanboy-annoyance.txt",
-		"format": "adbp",
-		"outputfile": "fanboy-annoyance.list",
-		"moreinformation": "https://easylist.to/",
-		"description": "Fanboy 的烦恼列表阻止社交媒体内容、页面内弹出窗口和其他骚扰； 从而大大减少网页加载时间并使它们变得整洁。 EasyList Cookie List 和 Fanboy's Social Blocking List 已经将其包含在内，如果您已有 Fanboy's Annoyance List，则无需订阅。 ",
-		"license-identifier": "CC BY 3.0"
-	},
-	{
-		"name": "EasyList China",
-		"url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
-		"format": "adbp",
-		"outputfile": "easylistchina.list",
-		"moreinformation": "https://easylist.to/",
-		"description": "EasyList China 是由 John 和 Li 编写的附属过滤器列表，专门用于去除中文网站上的广告。 ",
-		"license-identifier": "GPL3 / CC BY-SA 3.0"
-	},
-	{
-		"name": "AdGuard Tracking Protection filter",
-		"url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
-		"format": "adbp",
-		"outputfile": "adguard-tracking.list",
-		"moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
-		"description": "最全面的各种在线计数器和网络分析工具的清单。如果你不希望你在互联网上的行为被追踪，请使用这个过滤器。",
-		"license-identifier": "CC BY-SA 3.0"
-	},
-	{
-		"name": "1Hosts Lite",
-		"url": "https://badmojr.github.io/1Hosts/Lite/hosts.txt",
-		"format": "hosts",
-		"outputfile": "onehosts.list",
-		"moreinformation": "https://badmojr.github.io/1Hosts/",
-		"description": "保护您的设备免受讨厌的广告、跟踪器和恶意软件的侵害。",
-		"license-identifier": "MPL-2.0"
-	},	
-	{
-		"name": "NoTracking",
-		"url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt",
-		"format": "adbp",
-		"outputfile": "notracking.list",
-		"moreinformation": "https://github.com/notracking/hosts-blocklists",
-		"description": "自动更新、审核和优化列表，用于阻止广告、跟踪器、恶意软件和其他垃圾。",
-		"license-identifier": "CC BY-SA 3.0"
-	},
-	{
-		"name": "NoCoin Filter List",
-		"url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
-		"format": "hosts",
-		"outputfile": "nocoin.list",
-		"moreinformation": "https://github.com/hoshsadiq/adblock-nocoin-list/",
-		"description": "阻止网络浏览器加密货币挖矿脚本。",
-		"license-identifier": "MIT",
-		"license": "https://github.com/hoshsadiq/adblock-nocoin-list/blob/master/LICENSE"
-	}
+    {
+        "name": "AdAway Blocklist",
+        "url": "https://adaway.org/hosts.txt",
+        "format": "hosts",
+        "outputfile": "adaway.list",
+        "moreinformation": "https://adaway.org/",
+        "description": "AdAway 的特殊主机文件，包含移动广告提供商。",
+        "license-identifier": "CC BY 3.0",
+        "license": "https://github.com/AdAway/AdAway/blob/master/LICENSE"
+    },
+    {
+        "name": "StevenBlack's Hosts",
+        "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+        "format": "hosts",
+        "outputfile": "stevenblack.list",
+        "moreinformation": "https://github.com/StevenBlack/hosts",
+        "description": "由 Steven Black 创建的经过精心筛选的聚合 Hosts。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Yoyos Hosts",
+        "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+        "format": "hosts",
+        "outputfile": "yoyo.list",
+        "moreinformation": "https://pgl.yoyo.org/adservers/",
+        "description": "阻止广告、跟踪器和其他讨厌的东西的阻止列表。",
+        "license-identifier": "MCRAE GENERAL PUBLIC LICENSE"
+    },
+    {
+        "name": "AdRules DNS List",
+        "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
+        "format": "adbp",
+        "outputfile": "adrules.list",
+        "moreinformation": "https://github.com/Cats-Team/AdRules",
+        "description": "用于阻止中文地区广告的列表。",
+        "license-identifier": "WTFPL"
+    },
+    {
+        "name": "AdGuard DNS Filter",
+        "url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
+        "format": "adbp",
+        "outputfile": "adguarddns.list",
+        "moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+        "description": "由其他几个过滤器（英语过滤器、社交媒体过滤器、间谍软件过滤器、移动广告过滤器、EasyList 和 EasyPrivacy）组成的过滤器，经过专门简化以更好地与 DNS 级广告拦截兼容。 AdGuard DNS 服务器使用此过滤器来阻止广告。 ",
+        "license-identifier": "GPL3"
+    },
+    {
+        "name": "EasyList",
+        "url": "https://easylist.to/easylist/easylist.txt",
+        "format": "adbp",
+        "outputfile": "easylist.list",
+        "moreinformation": "https://easylist.to/",
+        "description": "EasyList 是首选的过滤器列表，可从国际网页中删除大部分广告，包括不需要的框架、图像和对象。 它是许多广告拦截器使用的最流行的列表，并构成了十多种组合和补充过滤器列表的基础。 ",
+        "license-identifier": "GPL3 / CC BY-SA 3.0"
+    },
+    {
+        "name": "EasyPrivacy",
+        "url": "https://easylist.to/easylist/easyprivacy.txt",
+        "format": "adbp",
+        "moreinformation": "https://easylist.to/",
+        "outputfile": "easyprivacy.list",
+        "description": "EasyPrivacy 是一个可选的补充过滤器列表，可从 Internet 上完全删除所有形式的跟踪，包括网络错误、跟踪脚本和信息收集器，从而保护您的个人数据。 ",
+        "license-identifier": "GPL3 / CC BY-SA 3.0"
+    },
+    {
+        "name": "CJX's EasyList Lite",
+        "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
+        "outputfile": "cjxlist.list",
+        "format": "adbp",
+        "moreinformation": "https://github.com/cjx82630/cjxlist",
+        "description": "这是 Easylist 的精简版。 过滤器仅在简体中文网站上触发。 ",
+        "license-identifier": "LGPL-3.0"
+    },
+    {
+        "name": "CJX's Annoyance List",
+        "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+        "outputfile": "cjx-annoyance.list",
+        "format": "adbp",
+        "moreinformation": "https://github.com/cjx82630/cjxlist",
+        "description": "消除了中文网站上的骚扰内容、自我宣传和隐私保护。",
+        "license-identifier": "LGPL-3.0"
+    },
+    {
+        "name": "Fanboy's Annoyance List",
+        "url": "https://easylist.to/easylist/fanboy-annoyance.txt",
+        "format": "adbp",
+        "outputfile": "fanboy-annoyance.list",
+        "moreinformation": "https://easylist.to/",
+        "description": "Fanboy 的烦恼列表阻止社交媒体内容、页面内弹出窗口和其他骚扰； 从而大大减少网页加载时间并使它们变得整洁。 EasyList Cookie List 和 Fanboy's Social Blocking List 已经将其包含在内，如果您已有 Fanboy's Annoyance List，则无需订阅。 ",
+        "license-identifier": "CC BY 3.0"
+    },
+    {
+        "name": "EasyList China",
+        "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+        "format": "adbp",
+        "outputfile": "easylistchina.list",
+        "moreinformation": "https://easylist.to/",
+        "description": "EasyList China 是由 John 和 Li 编写的附属过滤器列表，专门用于去除中文网站上的广告。 ",
+        "license-identifier": "GPL3 / CC BY-SA 3.0"
+    },
+    {
+        "name": "AdGuard Tracking Protection Filter",
+        "url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
+        "format": "adbp",
+        "outputfile": "adguard-tracking.list",
+        "moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+        "description": "最全面的各种在线计数器和网络分析工具的清单。如果你不希望你在互联网上的行为被追踪，请使用这个过滤器。",
+        "license-identifier": "CC BY-SA 3.0"
+    },
+    {
+        "name": "1Hosts Lite",
+        "url": "https://badmojr.github.io/1Hosts/Lite/hosts.txt",
+        "format": "hosts",
+        "outputfile": "onehosts.list",
+        "moreinformation": "https://badmojr.github.io/1Hosts/",
+        "description": "保护您的设备免受讨厌的广告、跟踪器和恶意软件的侵害。",
+        "license-identifier": "MPL-2.0"
+    },
+    {
+        "name": "OISD Basic",
+        "url": "https://hosts.oisd.nl/basic",
+        "format": "hosts",
+        "outputfile": "oisd.list",
+        "moreinformation": "https://oisd.nl/",
+        "description": "OISD - Domain Blocklist - Since november 2018",
+        "license-identifier": "CC BY-SA 3.0"
+    },
+    {
+        "name": "NoTracking",
+        "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt",
+        "format": "adbp",
+        "outputfile": "notracking.list",
+        "moreinformation": "https://github.com/notracking/hosts-blocklists",
+        "description": "自动更新、审核和优化列表，用于阻止广告、跟踪器、恶意软件和其他垃圾。",
+        "license-identifier": "CC BY-SA 3.0"
+    },
+    {
+        "name": "NoCoin Filter",
+        "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+        "format": "hosts",
+        "outputfile": "nocoin.list",
+        "moreinformation": "https://github.com/hoshsadiq/adblock-nocoin-list/",
+        "description": "阻止网络浏览器加密货币挖矿脚本。",
+        "license-identifier": "MIT",
+        "license": "https://github.com/hoshsadiq/adblock-nocoin-list/blob/master/LICENSE"
+    }
 ]
