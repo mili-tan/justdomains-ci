@@ -109,6 +109,15 @@
         "license-identifier": "CC BY-SA 3.0"
     },
     {
+        "name": "AWAvenue Adblock Rule",
+        "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt",
+        "format": "adbp",
+        "outputfile": "awavenue.list",
+        "moreinformation": "https://github.com/TG-Twilight/AWAvenue-Adblock-Rule",
+        "description": "从网络层面对抗 Android 应用中的各种广告 SDK，阻止其加载。",
+        "license-identifier": "CC BY-NC-SA 4.0"
+    },
+    {
         "name": "1Hosts Lite",
         "url": "https://badmojr.github.io/1Hosts/Lite/hosts.txt",
         "format": "hosts",
