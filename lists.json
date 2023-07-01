@@ -127,9 +127,18 @@
         "license-identifier": "MPL-2.0"
     },
     {
-        "name": "OISD Basic",
-        "url": "https://hosts.oisd.nl/basic",
-        "format": "hosts",
+        "name": "OISD Small",
+        "url": "https://small.oisd.nl",
+        "format": "adbp",
+        "outputfile": "oisd.list",
+        "moreinformation": "https://oisd.nl/",
+        "description": "OISD - Domain Blocklist - Since november 2018",
+        "license-identifier": "CC BY-SA 3.0"
+    },
+    {
+        "name": "OISD Big",
+        "url": "https://big.oisd.nl/",
+        "format": "adbp",
         "outputfile": "oisd.list",
         "moreinformation": "https://oisd.nl/",
         "description": "OISD - Domain Blocklist - Since november 2018",
