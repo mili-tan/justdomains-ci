@@ -163,15 +163,6 @@
         "license-identifier": "CC BY-NC-SA 3.0"
     },
     {
-        "name": "NoTracking",
-        "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt",
-        "format": "adbp",
-        "outputfile": "notracking.list",
-        "moreinformation": "https://github.com/notracking/hosts-blocklists",
-        "description": "自动更新、审核和优化列表，用于阻止广告、跟踪器、恶意软件和其他垃圾。",
-        "license-identifier": "CC BY-SA 3.0"
-    },
-    {
         "name": "NoCoin Filter",
         "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
         "format": "hosts",
