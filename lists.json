@@ -118,8 +118,8 @@
         "license-identifier": "CC BY-NC-SA 4.0"
     },
     {
-        "name": "1Hosts Lite",
-        "url": "https://badmojr.github.io/1Hosts/Lite/hosts.txt",
+        "name": "1Hosts Mini",
+        "url": "https://badmojr.github.io/1Hosts/mini/hosts.txt",
         "format": "hosts",
         "outputfile": "onehosts.list",
         "moreinformation": "https://badmojr.github.io/1Hosts/",
