@@ -159,7 +159,7 @@
         "format": "adbp",
         "outputfile": "hagezi.list",
         "moreinformation": "https://github.com/hagezi/dns-blocklists",
-        "description": "An extension for known blocklists. Blocks ads, trackers, native device trackers, badware and more. Not intended to be used as a standalone blocklist, it serves as a addition for other blocklists!",
+        "description": "Hand brush - Cleans the Internet and protects your privacy! Blocks Ads, Tracking, Metrics, some Malware and Fake.",
         "license-identifier": "CC BY-NC-SA 3.0"
     },
     {
