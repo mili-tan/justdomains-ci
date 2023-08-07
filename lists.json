@@ -119,8 +119,8 @@
     },
     {
         "name": "1Hosts Mini",
-        "url": "https://badmojr.github.io/1Hosts/mini/hosts.txt",
-        "format": "hosts",
+        "url": "https://badmojr.github.io/1Hosts/mini/adblock.txt",
+        "format": "adbp",
         "outputfile": "onehosts.list",
         "moreinformation": "https://badmojr.github.io/1Hosts/",
         "description": "保护您的设备免受讨厌的广告、跟踪器和恶意软件的侵害。",
