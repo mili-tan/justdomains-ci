@@ -154,8 +154,8 @@
         "license-identifier": "MIT"
     },
     {
-        "name": "Hagezi DNS Blocklists",
-        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt",
+        "name": "Hagezi DNS Blocklists Light",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
         "format": "adbp",
         "outputfile": "hagezi.list",
         "moreinformation": "https://github.com/hagezi/dns-blocklists",
