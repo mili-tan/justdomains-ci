@@ -188,7 +188,7 @@
         "outputfile": "nocoin.list",
         "moreinformation": "https://github.com/hoshsadiq/adblock-nocoin-list/",
         "description": "阻止网络浏览器加密货币挖矿脚本。",
-        "license-identifier": "MIT",
+        "license-identifier": "MIT"
     },
     {
         "name": "Hagezi Anti Bypass",
