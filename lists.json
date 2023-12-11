@@ -122,7 +122,7 @@
     },
     {
         "name": "AWAvenue Adblock Rule",
-        "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Adblock-Rule/main/AWAvenue-Adblock-Rule.txt",
+        "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
         "format": "adbp",
         "type": "ads",
         "outputfile": "awavenue.list",
