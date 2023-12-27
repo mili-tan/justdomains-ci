@@ -197,7 +197,7 @@
         "type": "functional",
         "outputfile": "hagezi-bypass.list",
         "moreinformation": "https://github.com/hagezi/dns-blocklists#bypass",
-        "description": "阻止通过 DoH/VPN/TOR/Proxy 等方式绕过拦截。",
+        "description": "阻止通过 DoH、VPN、TOR、Proxy 等方式绕过拦截。",
         "license-identifier": "CC BY-NC-SA 3.0"
     },
     {
