@@ -111,7 +111,7 @@
         "license-identifier": "GPL3 / CC BY-SA 3.0"
     },
     {
-        "name": "AdGuard Tracking Protection Filter",
+        "name": "AdGuard Tracking Filter",
         "url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
         "format": "adbp",
         "type": "privacy",
@@ -171,7 +171,7 @@
         "license-identifier": "MIT"
     },
     {
-        "name": "Hagezi DNS Blocklists Light",
+        "name": "Hagezi Blocklists Light",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
         "format": "adbp",
         "type": "ads",
@@ -201,7 +201,7 @@
         "license-identifier": "CC BY-NC-SA 3.0"
     },
     {
-        "name": "Anti DDNS",
+        "name": "DDNS Filter",
         "url": "https://mili.one/lists/ddns.txt",
         "format": "hosts",
         "type": "functional",
@@ -211,7 +211,7 @@
         "license-identifier": "Unlicense"
     },
     {
-        "name": "Anti IPFS",
+        "name": "IPFS Filter",
         "url": "https://mili.one/lists/ipfs.txt",
         "format": "hosts",
         "type": "functional",
@@ -229,5 +229,25 @@
         "moreinformation": "https://searx.space/",
         "description": "拦截不支持安全搜索的搜索引擎、SearX 公共实例等安全搜索绕过方式。",
         "license-identifier": "Unlicense"
+    },
+    {
+        "name": "NextDNS Native Tracking Filter",
+        "url": "https://mili.one/lists/nativetracking.txt",
+        "format": "hosts",
+        "type": "privacy",
+        "outputfile": "nativetracking.list",
+        "moreinformation": "https://github.com/nextdns/native-tracking-domains/",
+        "description": "拦截通常在设备、系统级运行的原生跟踪行为，阻止来自软件或设备制造厂商的跟着。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Anti HTTPDNS Bypass",
+        "url": "https://mili.one/lists/httpdns.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "httpdns.list",
+        "moreinformation": "https://github.com/VirgilClyne/GetSomeFries/wiki/%F0%9F%9A%AB-HTTPDNS",
+        "description": "阻止应用开发者通过 HTTPDNS 绕过用户的规则与拦截设置。",
+        "license-identifier": "GPL3"
     }
 ]
