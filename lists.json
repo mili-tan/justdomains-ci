@@ -237,7 +237,7 @@
         "type": "privacy",
         "outputfile": "nativetracking.list",
         "moreinformation": "https://github.com/nextdns/native-tracking-domains/",
-        "description": "拦截通常在设备、系统级运行的原生跟踪行为，阻止来自软件或设备制造厂商的跟着。",
+        "description": "拦截通常在设备、系统级运行的原生跟踪行为，阻止来自软件或设备制造厂商的跟踪。",
         "license-identifier": "MIT"
     },
     {
