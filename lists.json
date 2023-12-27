@@ -199,5 +199,35 @@
         "moreinformation": "https://github.com/hagezi/dns-blocklists#bypass",
         "description": "阻止通过 DoH/VPN/TOR/Proxy 等方式绕过拦截。",
         "license-identifier": "CC BY-NC-SA 3.0"
+    },
+    {
+        "name": "Anti DDNS",
+        "url": "https://mili.one/lists/ddns.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "ddns.list",
+        "moreinformation": "https://github.com/alexandrosmagos/dyn-dns-list",
+        "description": "拦截可能的 DDNS 服务域名，若您正在使用 DDNS 可能将受到影响。",
+        "license-identifier": "Unlicense"
+    },
+    {
+        "name": "Anti IPFS",
+        "url": "https://mili.one/lists/ipfs.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "ipfs.list",
+        "moreinformation": "https://github.com/ipfs/public-gateway-checker/",
+        "description": "拦截可能的 IPFS 公共网关服务域名，IPFS 相关分布式资源将受到影响。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Anti SafeSearch Bypass",
+        "url": "https://mili.one/lists/nosafesearch.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "nosafesearch.list",
+        "moreinformation": "https://searx.space/",
+        "description": "拦截不支持安全搜索的搜索引擎、SearX 公共实例等安全搜索绕过方式。",
+        "license-identifier": "Unlicense"
     }
 ]
