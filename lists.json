@@ -71,16 +71,6 @@
         "license-identifier": "GPL3 / CC BY-SA 3.0"
     },
     {
-        "name": "CJX's EasyList Lite",
-        "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
-        "outputfile": "cjxlist.list",
-        "format": "adbp",
-        "type": "ads",
-        "moreinformation": "https://github.com/cjx82630/cjxlist",
-        "description": "这是 Easylist 的精简版。 过滤器仅在简体中文网站上触发。 ",
-        "license-identifier": "LGPL-3.0"
-    },
-    {
         "name": "CJX's Annoyance List",
         "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
         "outputfile": "cjx-annoyance.list",
@@ -178,6 +168,16 @@
         "outputfile": "hagezi.list",
         "moreinformation": "https://github.com/hagezi/dns-blocklists",
         "description": "Hand brush - Cleans the Internet and protects your privacy! Blocks Ads, Tracking, Metrics, some Malware and Fake.",
+        "license-identifier": "CC BY-NC-SA 3.0"
+    },
+    {
+        "name": "Hagezi Blocklists Normal",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "hagezi-normal.list",
+        "moreinformation": "https://github.com/hagezi/dns-blocklists",
+        "description": "Broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other "Crap".",
         "license-identifier": "CC BY-NC-SA 3.0"
     },
     {
