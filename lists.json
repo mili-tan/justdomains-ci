@@ -175,7 +175,7 @@
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt",
         "format": "adbp",
         "type": "ads",
-        "outputfile": "hagezi-normal.list",
+        "outputfile": "hagezinormal.list",
         "moreinformation": "https://github.com/hagezi/dns-blocklists",
         "description": "Broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other "Crap".",
         "license-identifier": "CC BY-NC-SA 3.0"
