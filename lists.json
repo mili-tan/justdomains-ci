@@ -255,7 +255,7 @@
         "url": "https://mili.one/lists/cellular-identity.txt",
         "format": "hosts",
         "type": "functional",
-        "outputfile": "cellular-identity.txt",
+        "outputfile": "cellular-identity.list",
         "moreinformation": "https://github.com/VirgilClyne/GetSomeFries/wiki/%F0%9F%9A%AB-HTTPDNS",
         "description": "阻止应用开发者通过运营商提供的 API 获取手机号、进行号码校验、一键登录身份验证等。",
         "license-identifier": "GPL3"
