@@ -121,16 +121,6 @@
         "license-identifier": "CC BY-NC-SA 4.0"
     },
     {
-        "name": "1Hosts Mini",
-        "url": "https://badmojr.github.io/1Hosts/mini/adblock.txt",
-        "format": "adbp",
-        "type": "ads",
-        "outputfile": "onehosts.list",
-        "moreinformation": "https://badmojr.github.io/1Hosts/",
-        "description": "保护您的设备免受讨厌的广告、跟踪器和恶意软件的侵害。",
-        "license-identifier": "MPL-2.0"
-    },
-    {
         "name": "OISD Small",
         "url": "https://small.oisd.nl",
         "format": "adbp",
