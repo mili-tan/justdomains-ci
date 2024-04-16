@@ -171,6 +171,26 @@
         "license-identifier": "CC BY-NC-SA 3.0"
     },
     {
+        "name": "Blackmatrix7's Advertising Rules",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "bm7.list",
+        "moreinformation": "https://github.com/blackmatrix7/ios_rule_script",
+        "description": "由 Blackmatrix7 创建的分流规则、重写规则及脚本。",
+        "license-identifier": "GPL2"
+    },
+    {
+        "name": "Blackmatrix7's Advertising Rules Lite",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "bm7l.list",
+        "moreinformation": "https://github.com/blackmatrix7/ios_rule_script",
+        "description": "由 Blackmatrix7 创建的分流规则、重写规则及脚本。",
+        "license-identifier": "GPL2"
+    },
+    {
         "name": "NoCoin Filter",
         "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
         "format": "hosts",
@@ -229,6 +249,16 @@
         "moreinformation": "https://github.com/nextdns/native-tracking-domains/",
         "description": "拦截通常在设备、系统级运行的原生跟踪行为，阻止来自软件或设备制造厂商的跟踪。",
         "license-identifier": "MIT"
+    },
+    {
+        "name": "Blackmatrix7's MiTV Rules",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt",
+        "format": "adbp",
+        "type": "functional",
+        "outputfile": "bm7mitv.list",
+        "moreinformation": "https://github.com/blackmatrix7/ios_rule_script",
+        "description": "由 Blackmatrix7 创建的分流规则、重写规则及脚本。",
+        "license-identifier": "GPL2"
     },
     {
         "name": "Anti HTTPDNS Bypass",
