@@ -271,16 +271,6 @@
         "license-identifier": "GPL2"
     },
     {
-        "name": "Qingya's AdGurad Rules",
-        "url": " http://rssv.cn/adguard/api.php?type=dns",
-        "format": "adbp",
-        "type": "ads",
-        "outputfile": "qingya.list",
-        "moreinformation": "http://rssv.cn/adguard/",
-        "description": "晴雅 AdGurad 订阅规则",
-        "license-identifier": "/"
-    },
-    {
         "name": "Anti HTTPDNS Bypass",
         "url": "https://mili.one/lists/httpdns.txt",
         "format": "hosts",
