@@ -298,7 +298,7 @@
         "outputfile": "anti-ad-dns.list",
         "moreinformation": "https://github.com/privacy-protection-tools/anti-AD/tree/master/discretion",
         "description": "阻止部分程序通过使用内置加密 DNS（DoH, DoT 等）绕过本地 DNS 进行域名解析，防止 DNS 实现的拦截失效。",
-        "license-identifier": "GPL3"
+        "license-identifier": "MIT"
     },
     {
         "name": "Anti-AD Auto Number Verification",
@@ -308,7 +308,7 @@
         "outputfile": "anti-ad-anv.list",
         "moreinformation": "https://github.com/privacy-protection-tools/anti-AD/tree/master/discretion",
         "description": "阻止部分应用使用运营商提供的基于网络的本机号码自动登录服务，通过后台访问特定 API 从运营商处获取当前流量归属的手机号码。",
-        "license-identifier": "GPL3"
+        "license-identifier": "MIT"
     },
     {
         "name": "Anti-AD PCDN",
@@ -318,6 +318,6 @@
         "outputfile": "anti-ad-pcdn.list",
         "moreinformation": "https://github.com/privacy-protection-tools/anti-AD/tree/master/discretion",
         "description": "阻止部分应用后台使用用户网络带宽对外提供上传服务，为自身减少带宽压力或是直接牟利。这会影响用户的网络体验，消耗设备寿命。",
-        "license-identifier": "GPL3"
+        "license-identifier": "MIT"
     }
 ]
