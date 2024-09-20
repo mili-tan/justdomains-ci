@@ -141,16 +141,6 @@
         "license-identifier": "CC BY-SA 3.0"
     },
     {
-        "name": "ADgk",
-        "url": "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
-        "format": "adbp",
-        "type": "ads",
-        "outputfile": "adgk.list",
-        "moreinformation": "https://github.com/banbendalao/ADgk",
-        "description": "去除大部分软件的开屏广告，拦截大部分广告联盟的广告。",
-        "license-identifier": "MIT"
-    },
-    {
         "name": "Hagezi Blocklists Light",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
         "format": "adbp",
