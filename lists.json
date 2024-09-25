@@ -212,8 +212,8 @@
     },
     {
         "name": "CERT.PL's Warning List",
-        "url": "https://hole.cert.pl/domains/domains_hosts.txt",
-        "format": "hosts",
+        "url": "https://hole.cert.pl/domains/domains_adblock.txt",
+        "format": "adbp",
         "type": "functional",
         "outputfile": "certpl.list",
         "moreinformation": "https://cert.pl/en/warning-list/",
