@@ -201,6 +201,26 @@
         "license-identifier": "MIT"
     },
     {
+        "name": "CoinBlockerLists",
+        "url": "https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/hosts",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "coinblocker.list",
+        "moreinformation": "https://gitlab.com/ZeroDot1/CoinBlockerLists/-/blob/master/LICENSE",
+        "description": "此列表用于禁用基于浏览器的挖矿程序，例如 coin-hive。",
+        "license-identifier": "AGPL3"
+    },
+    {
+        "name": "CERT.PL's Warning List",
+        "url": "https://hole.cert.pl/domains/domains_hosts.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "certpl.list",
+        "moreinformation": "https://cert.pl/en/warning-list/",
+        "description": "用于拦截钓鱼网站和恶意软件的危险网站警告列表。",
+        "license-identifier": "AGPL3"
+    },
+    {
         "name": "Hagezi Anti Bypass",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt",
         "format": "adbp",
