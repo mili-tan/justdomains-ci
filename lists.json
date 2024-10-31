@@ -232,7 +232,7 @@
     },
     {
         "name": "DDNS Filter",
-        "url": "http://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/alexandrosmagos/dyn-dns-list/refs/heads/master/links.txt",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/alexandrosmagos/dyn-dns-list/refs/heads/master/links.txt",
         "format": "hosts",
         "type": "functional",
         "outputfile": "ddns.list",
@@ -252,7 +252,7 @@
     },
     {
         "name": "Anti SafeSearch Bypass",
-        "url": "http://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/nextdns/no-safesearch/refs/heads/main/domains",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/nextdns/no-safesearch/refs/heads/main/domains",
         "format": "hosts",
         "type": "functional",
         "outputfile": "nosafesearch.list",
@@ -262,7 +262,7 @@
     },
     {
         "name": "NextDNS Native Tracking Filter",
-        "url": "http://dns-mili-tan.koyeb.app/filestohosts/alexa,apple,huawei,roku,samsung,sonos,windows,xiaomi/raw.githubusercontent.com/nextdns/native-tracking-domains/refs/heads/main/domains",
+        "url": "https://dns-mili-tan.koyeb.app/filestohosts/alexa,apple,huawei,roku,samsung,sonos,windows,xiaomi/raw.githubusercontent.com/nextdns/native-tracking-domains/refs/heads/main/domains",
         "format": "hosts",
         "type": "privacy",
         "outputfile": "nativetracking.list",
