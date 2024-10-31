@@ -232,7 +232,7 @@
     },
     {
         "name": "DDNS Filter",
-        "url": "https://mili.one/lists/ddns.txt",
+        "url": "http://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/alexandrosmagos/dyn-dns-list/refs/heads/master/links.txt",
         "format": "hosts",
         "type": "functional",
         "outputfile": "ddns.list",
@@ -252,17 +252,17 @@
     },
     {
         "name": "Anti SafeSearch Bypass",
-        "url": "https://mili.one/lists/nosafesearch.txt",
+        "url": "http://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/nextdns/no-safesearch/refs/heads/main/domains",
         "format": "hosts",
         "type": "functional",
         "outputfile": "nosafesearch.list",
         "moreinformation": "https://searx.space/",
         "description": "拦截不支持安全搜索的搜索引擎、SearX 公共实例等安全搜索绕过方式。",
-        "license-identifier": "Unlicense"
+        "license-identifier": "MIT"
     },
     {
         "name": "NextDNS Native Tracking Filter",
-        "url": "https://mili.one/lists/nativetracking.txt",
+        "url": "http://dns-mili-tan.koyeb.app/filestohosts/alexa,apple,huawei,roku,samsung,sonos,windows,xiaomi/raw.githubusercontent.com/nextdns/native-tracking-domains/refs/heads/main/domains",
         "format": "hosts",
         "type": "privacy",
         "outputfile": "nativetracking.list",
@@ -282,7 +282,7 @@
     },
     {
         "name": "Anti HTTPDNS Bypass",
-        "url": "https://mili.one/lists/httpdns.txt",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list",
         "format": "hosts",
         "type": "functional",
         "outputfile": "httpdns.list",
@@ -302,7 +302,7 @@
     },
     {
         "name": "Anti-AD Encrypted DNS",
-        "url": "https://mili.one/lists/dns.txt",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/dns.txt",
         "format": "hosts",
         "type": "functional",
         "outputfile": "anti-ad-dns.list",
@@ -312,7 +312,7 @@
     },
     {
         "name": "Anti-AD Auto Number Verification",
-        "url": "https://mili.one/lists/anv.txt",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt",
         "format": "hosts",
         "type": "functional",
         "outputfile": "anti-ad-anv.list",
@@ -322,7 +322,7 @@
     },
     {
         "name": "Anti-AD PCDN",
-        "url": "https://mili.one/lists/pcdn.txt",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/pcdn.txt",
         "format": "hosts",
         "type": "functional",
         "outputfile": "anti-ad-pcdn.list",
