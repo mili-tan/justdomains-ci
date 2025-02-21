@@ -1,0 +1,333 @@
+[
+    {
+        "name": "AdAway Blocklist",
+        "url": "https://adaway.org/hosts.txt",
+        "format": "hosts",
+        "type": "ads",
+        "outputfile": "adaway.list",
+        "moreinformation": "https://adaway.org/",
+        "description": "AdAway 的特殊主机文件，包含移动广告提供商。",
+        "license-identifier": "CC BY 3.0",
+        "license": "https://github.com/AdAway/AdAway/blob/master/LICENSE"
+    },
+    {
+        "name": "StevenBlack's Hosts",
+        "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+        "format": "hosts",
+        "type": "ads",
+        "outputfile": "stevenblack.list",
+        "moreinformation": "https://github.com/StevenBlack/hosts",
+        "description": "由 Steven Black 创建的经过精心筛选的聚合 Hosts。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Yoyos Hosts",
+        "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+        "format": "hosts",
+        "type": "ads",
+        "outputfile": "yoyo.list",
+        "moreinformation": "https://pgl.yoyo.org/adservers/",
+        "description": "阻止广告、跟踪器和其他讨厌的东西的阻止列表。",
+        "license-identifier": "MCRAE GENERAL PUBLIC LICENSE"
+    },
+    {
+        "name": "AdRules DNS List",
+        "url": "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "adrules.list",
+        "moreinformation": "https://github.com/Cats-Team/AdRules",
+        "description": "用于阻止中文地区广告的列表。",
+        "license-identifier": "WTFPL"
+    },
+    {
+        "name": "AdGuard DNS Filter",
+        "url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "adguarddns.list",
+        "moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+        "description": "由其他几个过滤器（英语过滤器、社交媒体过滤器、间谍软件过滤器、移动广告过滤器、EasyList 和 EasyPrivacy）组成的过滤器，经过专门简化以更好地与 DNS 级广告拦截兼容。 AdGuard DNS 服务器使用此过滤器来阻止广告。 ",
+        "license-identifier": "GPL3"
+    },
+    {
+        "name": "EasyList",
+        "url": "https://easylist.to/easylist/easylist.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "easylist.list",
+        "moreinformation": "https://easylist.to/",
+        "description": "EasyList 是首选的过滤器列表，可从国际网页中删除大部分广告，包括不需要的框架、图像和对象。 它是许多广告拦截器使用的最流行的列表，并构成了十多种组合和补充过滤器列表的基础。 ",
+        "license-identifier": "GPL3 / CC BY-SA 3.0"
+    },
+    {
+        "name": "EasyPrivacy",
+        "url": "https://easylist.to/easylist/easyprivacy.txt",
+        "format": "adbp",
+        "type": "privacy",
+        "moreinformation": "https://easylist.to/",
+        "outputfile": "easyprivacy.list",
+        "description": "EasyPrivacy 是一个可选的补充过滤器列表，可从 Internet 上完全删除所有形式的跟踪，包括网络错误、跟踪脚本和信息收集器，从而保护您的个人数据。 ",
+        "license-identifier": "GPL3 / CC BY-SA 3.0"
+    },
+    {
+        "name": "CJX's Annoyance List",
+        "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+        "outputfile": "cjx-annoyance.list",
+        "format": "adbp",
+        "type": "privacy",
+        "moreinformation": "https://github.com/cjx82630/cjxlist",
+        "description": "消除了中文网站上的骚扰内容、自我宣传和隐私保护。",
+        "license-identifier": "LGPL-3.0"
+    },
+    {
+        "name": "Fanboy's Annoyance List",
+        "url": "https://easylist.to/easylist/fanboy-annoyance.txt",
+        "format": "adbp",
+        "type": "privacy",
+        "outputfile": "fanboy-annoyance.list",
+        "moreinformation": "https://easylist.to/",
+        "description": "Fanboy 的烦恼列表阻止社交媒体内容、页面内弹出窗口和其他骚扰； 从而大大减少网页加载时间并使它们变得整洁。 EasyList Cookie List 和 Fanboy's Social Blocking List 已经将其包含在内，如果您已有 Fanboy's Annoyance List，则无需订阅。 ",
+        "license-identifier": "CC BY 3.0"
+    },
+    {
+        "name": "EasyList China",
+        "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "easylistchina.list",
+        "moreinformation": "https://easylist.to/",
+        "description": "EasyList China 是由 John 和 Li 编写的附属过滤器列表，专门用于去除中文网站上的广告。 ",
+        "license-identifier": "GPL3 / CC BY-SA 3.0"
+    },
+    {
+        "name": "AdGuard Tracking Filter",
+        "url": "https://filters.adtidy.org/extension/chromium/filters/3.txt",
+        "format": "adbp",
+        "type": "privacy",
+        "outputfile": "adguard-tracking.list",
+        "moreinformation": "https://kb.adguard.com/en/general/adguard-ad-filters",
+        "description": "最全面的各种在线计数器和网络分析工具的清单。如果你不希望你在互联网上的行为被追踪，请使用这个过滤器。",
+        "license-identifier": "CC BY-SA 3.0"
+    },
+    {
+        "name": "AWAvenue Adblock Rule",
+        "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "awavenue.list",
+        "moreinformation": "https://github.com/TG-Twilight/AWAvenue-Adblock-Rule",
+        "description": "从网络层面对抗 Android 应用中的各种广告 SDK，阻止其加载。",
+        "license-identifier": "CC BY-NC-SA 4.0"
+    },
+    {
+        "name": "OISD Small",
+        "url": "https://small.oisd.nl",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "oisdsmall.list",
+        "moreinformation": "https://oisd.nl/",
+        "description": "OISD - Domain Blocklist - Since november 2018",
+        "license-identifier": "CC BY-SA 3.0"
+    },
+    {
+        "name": "OISD Big",
+        "url": "https://big.oisd.nl",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "oisdbig.list",
+        "moreinformation": "https://oisd.nl/",
+        "description": "OISD - Domain Blocklist - Since november 2018",
+        "license-identifier": "CC BY-SA 3.0"
+    },
+    {
+        "name": "Hagezi Blocklists Light",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "hagezi.list",
+        "moreinformation": "https://github.com/hagezi/dns-blocklists",
+        "description": "Hand brush - Cleans the Internet and protects your privacy! Blocks Ads, Tracking, Metrics, some Malware and Fake.",
+        "license-identifier": "CC BY-NC-SA 3.0"
+    },
+    {
+        "name": "Hagezi Blocklists Normal",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "hagezi-normal.list",
+        "moreinformation": "https://github.com/hagezi/dns-blocklists",
+        "description": "Broom - Cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Coins and other Crap.",
+        "license-identifier": "CC BY-NC-SA 3.0"
+    },
+    {
+        "name": "Blackmatrix7's Advertising Rules",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/Advertising/Advertising.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "bm7.list",
+        "moreinformation": "https://github.com/blackmatrix7/ios_rule_script",
+        "description": "由 Blackmatrix7 创建的分流规则、重写规则及脚本。",
+        "license-identifier": "GPL2"
+    },
+    {
+        "name": "Blackmatrix7's Advertising Rules Lite",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "bm7l.list",
+        "moreinformation": "https://github.com/blackmatrix7/ios_rule_script",
+        "description": "由 Blackmatrix7 创建的分流规则、重写规则及脚本，简化版。",
+        "license-identifier": "GPL2"
+    },
+    {
+        "name": "d3Host List by d3ward",
+        "url": "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
+        "format": "adbp",
+        "type": "ads",
+        "outputfile": "d3.list",
+        "moreinformation": "https://github.com/d3ward/toolz",
+        "description": "Simple and small list with the most popular advertising, tracking, analytics and social advertising services.",
+        "license-identifier": "CC BY-NC-SA"
+    },
+    {
+        "name": "NoCoin Filter",
+        "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "nocoin.list",
+        "moreinformation": "https://github.com/hoshsadiq/adblock-nocoin-list/",
+        "description": "阻止网络浏览器加密货币挖矿脚本。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "CoinBlockerLists",
+        "url": "https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/hosts",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "coinblocker.list",
+        "moreinformation": "https://gitlab.com/ZeroDot1/CoinBlockerLists/-/blob/master/LICENSE",
+        "description": "此列表用于禁用基于浏览器的挖矿程序，例如 coin-hive。",
+        "license-identifier": "AGPL3"
+    },
+    {
+        "name": "CERT.PL's Warning List",
+        "url": "https://hole.cert.pl/domains/domains_adblock.txt",
+        "format": "adbp",
+        "type": "functional",
+        "outputfile": "certpl.list",
+        "moreinformation": "https://cert.pl/en/warning-list/",
+        "description": "用于拦截钓鱼网站和恶意软件的危险网站警告列表。",
+        "license-identifier": "AGPL3"
+    },
+    {
+        "name": "Hagezi Anti Bypass",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt",
+        "format": "adbp",
+        "type": "functional",
+        "outputfile": "hagezi-bypass.list",
+        "moreinformation": "https://github.com/hagezi/dns-blocklists#bypass",
+        "description": "阻止通过其他 DoH、VPN、TOR、Proxy 等方式绕过拦截。",
+        "license-identifier": "CC BY-NC-SA 3.0"
+    },
+    {
+        "name": "DDNS Filter",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/alexandrosmagos/dyn-dns-list/refs/heads/master/links.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "ddns.list",
+        "moreinformation": "https://github.com/alexandrosmagos/dyn-dns-list",
+        "description": "拦截可能的 DDNS 服务域名，若您正在使用 DDNS 可能将受到影响。",
+        "license-identifier": "Unlicense"
+    },
+    {
+        "name": "IPFS Filter",
+        "url": "https://mili.one/lists/ipfs.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "ipfs.list",
+        "moreinformation": "https://github.com/ipfs/public-gateway-checker/",
+        "description": "拦截可能的 IPFS 公共网关服务域名，IPFS 相关分布式资源将受到影响。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Anti SafeSearch Bypass",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/nextdns/no-safesearch/refs/heads/main/domains",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "nosafesearch.list",
+        "moreinformation": "https://searx.space/",
+        "description": "拦截不支持安全搜索的搜索引擎、SearX 公共实例等安全搜索绕过方式。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "NextDNS Native Tracking Filter",
+        "url": "https://dns-mili-tan.koyeb.app/filestohosts/alexa,apple,huawei,roku,samsung,sonos,windows,xiaomi/raw.githubusercontent.com/nextdns/native-tracking-domains/refs/heads/main/domains",
+        "format": "hosts",
+        "type": "privacy",
+        "outputfile": "nativetracking.list",
+        "moreinformation": "https://github.com/nextdns/native-tracking-domains/",
+        "description": "拦截通常在设备、系统级运行的原生跟踪行为，阻止来自软件或设备制造厂商的跟踪。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Blackmatrix7's MiTV Rules",
+        "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/AdGuard/AdvertisingMiTV/AdvertisingMiTV.txt",
+        "format": "adbp",
+        "type": "functional",
+        "outputfile": "bm7mitv.list",
+        "moreinformation": "https://github.com/blackmatrix7/ios_rule_script",
+        "description": "由 Blackmatrix7 创建的分流规则、重写规则及脚本。",
+        "license-identifier": "GPL2"
+    },
+    {
+        "name": "Anti HTTPDNS Bypass",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/HTTPDNS.Block.list",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "httpdns.list",
+        "moreinformation": "https://github.com/VirgilClyne/GetSomeFries/wiki/%F0%9F%9A%AB-HTTPDNS",
+        "description": "阻止应用开发者通过 HTTPDNS 绕过用户的规则与拦截设置。",
+        "license-identifier": "GPL3"
+    },
+    {
+        "name": "HideMyTel",
+        "url": "https://raw.githubusercontent.com/notSachiho/HideMyTel/refs/heads/main/hosts",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "cellular-identity.list",
+        "moreinformation": "https://github.com/notSachiho/HideMyTel",
+        "description": "阻止应用开发者通过运营商提供的 API 获取手机号、进行号码校验、一键登录身份验证等。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Anti-AD Encrypted DNS",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/dns.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "anti-ad-dns.list",
+        "moreinformation": "https://github.com/privacy-protection-tools/anti-AD/tree/master/discretion",
+        "description": "阻止部分程序通过使用内置加密 DNS（DoH, DoT 等）绕过本地 DNS 进行域名解析，防止 DNS 实现的拦截失效。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Anti-AD Auto Number Verification",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/anv.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "anti-ad-anv.list",
+        "moreinformation": "https://github.com/privacy-protection-tools/anti-AD/tree/master/discretion",
+        "description": "阻止部分应用使用运营商提供的基于网络的本机号码自动登录服务，通过后台访问特定 API 从运营商处获取当前流量归属的手机号码。",
+        "license-identifier": "MIT"
+    },
+    {
+        "name": "Anti-AD PCDN",
+        "url": "https://dns-mili-tan.koyeb.app/tohosts/raw.githubusercontent.com/privacy-protection-tools/anti-AD/refs/heads/master/discretion/pcdn.txt",
+        "format": "hosts",
+        "type": "functional",
+        "outputfile": "anti-ad-pcdn.list",
+        "moreinformation": "https://github.com/privacy-protection-tools/anti-AD/tree/master/discretion",
+        "description": "阻止部分应用后台使用用户网络带宽对外提供上传服务，为自身减少带宽压力或是直接牟利。这会影响用户的网络体验，消耗设备寿命。",
+        "license-identifier": "MIT"
+    }
+]

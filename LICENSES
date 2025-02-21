@@ -1,0 +1,32 @@
+All converted / modified list files are licensed under the same license as the original list.
+
+[adaway-{FORMAT}.list]
+	License: https://github.com/AdAway/AdAway/blob/master/LICENSE
+[adguarddns-{FORMAT}.list]
+	License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
+[easylist-{FORMAT}.list]
+	License: https://easylist.to/pages/licence.html
+[easyprivacy-{FORMAT}.list]
+	License: https://easylist.to/pages/licence.html
+[cjx-annoyance-{FORMAT}.list]
+	License: https://github.com/cjx82630/cjxlist/blob/master/LICENSE
+[fanboy-annoyance-{FORMAT}.list]
+	License: https://easylist.to/pages/licence.html
+[easylistchina-{FORMAT}.list]
+	License: https://easylist.to/pages/licence.html
+[adguard-tracking-{FORMAT}.list]
+	License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+[oisdsmall-{FORMAT}.list]
+	License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
+[oisdbig-{FORMAT}.list]
+	License: https://github.com/sjhgvr/oisd/blob/main/LICENSE
+[hagezi-{FORMAT}.list]
+	License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+[hagezi-normal-{FORMAT}.list]
+	License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+[d3-{FORMAT}.list]
+	License: CC BY-NC-SA
+[nocoin-{FORMAT}.list]
+	License: https://mit-license.org/
+[hagezi-bypass-{FORMAT}.list]
+	License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
